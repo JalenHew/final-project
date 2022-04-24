@@ -186,6 +186,9 @@ p {
   display: flex;
   padding-top: 32.5px;
 }
+#upcomingEvents .eventsWrapper .eventsCalendar a {
+  text-decoration: none;
+}
 #upcomingEvents .eventsWrapper .eventsCalendar a .event {
   max-width: 220px;
   min-height: 124px;
