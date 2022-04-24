@@ -334,8 +334,8 @@ var blogTwoContent = ` <div class="blogPageContainer">
 var blogThreeContent = ` <div class="blogPageContainer">
 <div class="blogPageHeader">
     <div class="date">
-        <div class="month">23</div>
-        <div class="day">DEC</div>
+        <div class="day">23</div>
+        <div class="month">DEC</div>
     </div>
 </div>
 <div class="blogPageContent">
