@@ -716,14 +716,13 @@ nav .navLine {
   justify-content: space-between;
 }
 .contactContainer .conContainer .formSend .form .box {
-  min-width: 260px;
+  max-width: 529px;
   width: 529px;
   height: 60px;
   background-color: #f5f5f5;
   border-style: none;
 }
 .contactContainer .conContainer .formSend .form .fatBox {
-  min-width: 260px;
   max-width: 529px;
   min-height: 120px;
   height: 199px;
