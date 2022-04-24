@@ -1,119 +1,121 @@
-var homeContent = `  <div class="header">
-<div class="headerGoesHere">
-    <h1>Header goes here</h1>
-    <p>less important text goes here</p>
-</div>
-<p class="lessImportant">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Fugiat aliquid minus nemo sed est.</p>
-<a href="#about">
-    <div class="readMore">
-        Read More
-    </div>
-</a>
+var homeContent = ` <div class="header">
+                    <div class="headerGoesHere">
+                        <h1>Header goes here</h1>
+                        <p>less important text goes here</p>
+                    </div>
+                    <p class="lessImportant">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Fugiat aliquid minus nemo sed est.</p>
+                    <a href="#about">
+                        <div class="readMore">
+                            Read More
+                        </div>
+                    </a>
 
-</div>
-<div class="quote">
-<div class="quoteWrapper">
-    <p class="quoteText">“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-        doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo. Iste natus error sit voluptatem accusantium
-        doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo”
-    </p>
+                </div>
+                <div class="quote">
+                    <div class="quoteWrapper">
+                        <p class="quoteText">“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Iste natus error sit voluptatem accusantium
+                            doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo”
+                        </p>
 
-    <div class="quoteName">
-        <p class="johnSmith">John Smith</p>
-        <p class="johnTitle">Corporation CEO, books author.</p>
-    </div>
-</div>
+                        <div class="quoteName">
+                            <p class="johnSmith">John Smith</p>
+                            <p class="johnTitle">Corporation CEO, books author.</p>
+                        </div>
+                    </div>
 
-</div>
-<section id="upcomingEvents">
-<div class="eventsWrapper">
-    <h1 class="eventsHeader">UPCOMING EVENTS:</h1>
-    <div class="eventsCalendar">
-        <div class="event">
-            <div class="date">
-                <div class="dateText">
-                    <p class="day">06</p>
-                    <p class="month">JUN</p>
                 </div>
-            </div>
-            <div class="eventText">
-                <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
-                <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Aliquid temporibus quos aspernatur</div>
-            </div>
-        </div>
-        <div class="event">
-            <div class="date">
-                <div class="dateText">
-                    <p class="day">06</p>
-                    <p class="month">JUN</p>
-                </div>
-            </div>
-            <div class="eventText">
-                <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
-                <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Aliquid temporibus quos aspernatur</div>
-            </div>
-        </div>
-        <div class="event">
-            <div class="date">
-                <div class="dateText">
-                    <p class="day">06</p>
-                    <p class="month">JUN</p>
-                </div>
-            </div>
-            <div class="eventText">
-                <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
-                <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Aliquid temporibus quos aspernatur</div>
-            </div>
-        </div>
-        <div class="event">
-            <div class="date">
-                <div class="dateText">
-                    <p class="day">06</p>
-                    <p class="month">JUN</p>
-                </div>
-            </div>
-            <div class="eventText">
-                <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
-                <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Aliquid temporibus quos aspernatur</div>
-            </div>
-        </div>
-        <div class="event">
-            <div class="date">
-                <div class="dateText">
-                    <p class="day">06</p>
-                    <p class="month">JUN</p>
-                </div>
-            </div>
-            <div class="eventText">
-                <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
-                <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Aliquid temporibus quos aspernatur</div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>`
-;
-var aboutContent = ` <div class="aboutWrapper">
-<div class="aboutHero"></div>
-<div class="aboutHistory">
-    <div class="ourHistory">OUR HISTORY:</div>
-    <p class="about">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-        quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-        dolore magnam aliquam quaerat voluptatem. </p>
-</div>
-</div>`;
+                <section id="upcomingEvents">
+                    <div class="eventsWrapper">
+                        <h1 class="eventsHeader">UPCOMING EVENTS:</h1>
+                        <div class="eventsCalendar">
+                            <a href="#blogOne">
+                                <div class="event">
+                                    <div class="date">
+                                        <div class="dateText">
+                                            <p class="day">06</p>
+                                            <p class="month">JUN</p>
+                                        </div>
+                                    </div>
+                                    <div class="eventText">
+                                        <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
+                                        <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit. Aliquid temporibus quos aspernatur</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#blogTwo">
+                                <div class="event">
+                                    <div class="date">
+                                        <div class="dateText">
+                                            <p class="day">30</p>
+                                            <p class="month">JUL</p>
+                                        </div>
+                                    </div>
+                                    <div class="eventText">
+                                        <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
+                                        <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit. Aliquid temporibus quos aspernatur</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#blogThree">
+                                <div class="event">
+                                    <div class="date">
+                                        <div class="dateText">
+                                            <p class="day">30</p>
+                                            <p class="month">AUG</p>
+                                        </div>
+                                    </div>
+                                    <div class="eventText">
+                                        <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
+                                        <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit. Aliquid temporibus quos aspernatur</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#blogFour">
+                                <div class="event">
+                                    <div class="date">
+                                        <div class="dateText">
+                                            <p class="day">23</p>
+                                            <p class="month">NOV</p>
+                                        </div>
+                                    </div>
+                                    <div class="eventText">
+                                        <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
+                                        <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit. Aliquid temporibus quos aspernatur</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#blogFive">
+                                <div class="event">
+                                    <div class="date">
+                                        <div class="dateText">
+                                            <p class="day">23</p>
+                                            <p class="month">DEC</p>
+                                        </div>
+                                    </div>
+                                    <div class="eventText">
+                                        <div class="eventName">Sed et persipiatis unde omnis iste natus</div>
+                                        <div class="eventDescription">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing
+                                            elit. Aliquid temporibus quos aspernatur</div>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </section>`;
 var galleryContent = `  <div class="galleryWrapper">
 <div class="galleryHeader">GALLERY:</div>
 <div class="galleryContainer">
