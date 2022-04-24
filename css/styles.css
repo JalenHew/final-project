@@ -186,31 +186,31 @@ p {
   display: flex;
   padding-top: 32.5px;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event {
   max-width: 220px;
   min-height: 124px;
   margin-right: 20px;
   display: flex;
   justify-content: space-between;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event .eventText {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event .eventText {
   max-width: 140px;
   min-height: 124px;
   display: flex;
   flex-direction: column;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event .eventText .eventName {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event .eventText .eventName {
   color: white;
   font-size: 15px;
   margin-bottom: 5px;
   font-family: GillSans;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event .eventText .eventDescription {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event .eventText .eventDescription {
   color: #ee4367;
   font-size: 13px;
   font-family: GillSans;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event .date {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event .date {
   width: 60px;
   height: 60px;
   background-color: #ee4367;
@@ -219,20 +219,20 @@ p {
   align-items: center;
   margin-right: 20px;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event .date .dateText {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event .date .dateText {
   height: 40.38px;
   width: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event .date .dateText .day {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event .date .dateText .day {
   font-size: 22px;
   color: white;
   margin-bottom: 0px;
   font-family: GillSans;
 }
-#upcomingEvents .eventsWrapper .eventsCalendar .event .date .dateText .month {
+#upcomingEvents .eventsWrapper .eventsCalendar a .event .date .dateText .month {
   font-size: 12px;
   color: white;
   font-family: GillSans;
