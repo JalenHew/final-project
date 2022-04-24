@@ -48,7 +48,7 @@ var homeContent = ` <div class="header">
                                     </div>
                                 </div>
                             </a>
-                            <a href="#blogTwo">
+                            <a href="#blogFour">
                                 <div class="event">
                                     <div class="date">
                                         <div class="dateText">
@@ -64,7 +64,7 @@ var homeContent = ` <div class="header">
                                     </div>
                                 </div>
                             </a>
-                            <a href="#blogThree">
+                            <a href="#blogTwo">
                                 <div class="event">
                                     <div class="date">
                                         <div class="dateText">
@@ -80,7 +80,7 @@ var homeContent = ` <div class="header">
                                     </div>
                                 </div>
                             </a>
-                            <a href="#blogFour">
+                            <a href="#blogFive">
                                 <div class="event">
                                     <div class="date">
                                         <div class="dateText">
@@ -96,7 +96,7 @@ var homeContent = ` <div class="header">
                                     </div>
                                 </div>
                             </a>
-                            <a href="#blogFive">
+                            <a href="#blogFour">
                                 <div class="event">
                                     <div class="date">
                                         <div class="dateText">
@@ -362,8 +362,8 @@ var blogThreeContent = ` <div class="blogPageContainer">
 var blogFourContent = ` <div class="blogPageContainer">
 <div class="blogPageHeader">
     <div class="date">
-        <div class="month">30</div>
-        <div class="day">JUL</div>
+        <div class="day">30</div>
+        <div class="month">JUL</div>
     </div>
 </div>
 <div class="blogPageContent">
