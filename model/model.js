@@ -96,7 +96,7 @@ var homeContent = ` <div class="header">
                                     </div>
                                 </div>
                             </a>
-                            <a href="#blogFour">
+                            <a href="#blogFive">
                                 <div class="event">
                                     <div class="date">
                                         <div class="dateText">
