@@ -1,0 +1,109 @@
+.galleryPageContainerOne {
+	max-width: 981px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 50.5px;
+	padding-bottom: 73px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+	.galleryPageHeader {
+		max-width: 981px;
+		height: 400.5px;
+		margin-bottom: 50.5px;
+		// background-color: aqua;
+
+		.galleryPageHeaderImage {
+			max-width: 981px;
+			height: 400px;
+			background-image: linear-gradient(rgba(255, 209, 64, .75), rgba(255, 209, 64, .75)), url(../images/1.png);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.galleryPageHeaderText {
+			max-width: 981px;
+			min-height: 351px;
+			margin-top: -351px;
+			display: flex;
+			align-items: flex-end;
+			color: #ffd140;
+			text-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+			// background-color: pink;
+			.galleryNumber {
+				max-width: 227px;
+				font-size: 300px;
+				font-family: GillSans;
+				// background-color: red;
+				margin-bottom: -70px;
+			}
+			.galleryTitle {
+				max-width: 713px;
+				font-size: 115px;
+				font-family: GillSans;
+				// background-color: green;
+				margin-bottom: -32.5px;
+				display: flex;
+				align-items: flex-end;
+				white-space: nowrap;
+			}
+		}
+	}
+	.galleryPageContent {
+		max-width: 981px;
+		min-height: 133px;
+		// background-color: aqua;
+		display: flex;
+		// justify-content: space-between;
+
+		.galleryPageText {
+			max-width: 491px;
+			min-height: 133px;
+			font-size: 16px;
+			font-family: GillSans;
+			margin-right: 40px;
+		}
+		.galleryPageTextTwo {
+			max-width: 491px;
+			min-height: 133px;
+			font-size: 16px;
+			font-family: GillSans;
+		}
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.galleryPageContainerOne {
+		.galleryPageHeader {
+			min-height: 515px;
+			.galleryPageHeaderImage {
+				max-width: 620px;
+				min-height: 515px;
+			}
+			.galleryPageHeaderText {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				margin-top: -570px;
+
+				.galleryNumber {
+					text-align: center;
+				}
+				.galleryTitle {
+					text-align: center;
+				}
+			}
+		}
+		.galleryPageContent {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.galleryPageText {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}

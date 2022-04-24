@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	padding-bottom: 1px;
+}
+
+@font-face {
+	font-family: GillSans;
+	src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+	font-family: ptSerifBold;
+	src: url(../fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+	font-family: ptSerifBoldItalic;
+	src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+	font-family: ptSerifItalic;
+	src: url(../fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+	font-family: ptSerif;
+	src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+.whiteText {
+	color: white;
+}
+.blackeText {
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	font-family: GillSans;
+}
+
+.whiteLine {
+	height: 2px;
+	width: 100%;
+	background-color: white;
+}
+
+.whiteLogo {
+	height: 42px;
+	width: 92px;
+	background-image: url(../images/logo-white.png);
+}

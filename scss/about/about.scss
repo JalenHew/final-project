@@ -1,0 +1,39 @@
+.aboutWrapper {
+	height: 100%;
+	max-width: 979.5px;
+	background-color: white;
+	margin: 0 auto;
+	padding-top: 85.5px;
+	padding-bottom: 95px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+	.aboutHero {
+		min-height: 378.75px;
+		width: 100%;
+		background-image: linear-gradient(rgba(255, 209, 64, .75), rgba(255, 209, 64, .75)), url(../images/about.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.aboutHistory {
+		width: 100%;
+		min-height: 172px;
+		margin-top: -25px;
+
+		// background-color: red;
+		.ourHistory {
+			max-width: 229.5px;
+			min-height: 39.5px;
+			font-size: 25px;
+			font-family: GillSans;
+			border-bottom: 2px solid black;
+			margin-bottom: 36.5px;
+		}
+
+		.about {
+			font-size: 16px;
+			font-family: GillSans;
+		}
+	}
+}

@@ -1,0 +1,107 @@
+footer {
+	width: 100%;
+	min-height: 455px;
+	background-color: #ee4367;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.footerWrapper {
+		width: 100%;
+		min-height: 455px;
+		background-color: #ee4367;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		.logo {
+			// background-color: pink;
+			height: 42px;
+			width: 92px;
+			background-image: url(../images/logo-white.png);
+		}
+		.footerInfo {
+			max-width: 246px;
+			height: 67px;
+			// display: flex;
+			// flex-direction: column;
+			// justify-content: space-evenly;
+			align-items: center;
+			margin-top: 46px;
+			// background-color: orange;
+
+			p {
+				max-width: 246px;
+				// min-height: 19px;
+				// background-color: green;
+				text-align: center;
+				color: white;
+				font-size: 16px;
+				font-family: GillSans;
+				white-space: no-wrap;
+			}
+		}
+
+		.newsLetter {
+			max-width: 696px;
+			min-height: 60px;
+			margin-top: 46px;
+			// background-color: red;
+			display: flex;
+
+			.eMail {
+				width: 529px;
+				height: 60px;
+				background-color: #f56b88;
+				border: none;
+				font-family: GillSans;
+			}
+
+			.subscribe {
+				width: 167px;
+				height: 60px;
+				border: none;
+				background-color: white;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #ee4367;
+				font-size: 16px;
+				font-family: GillSans;
+			}
+		}
+
+		.socialMedia {
+			width: 156px;
+			min-height: 31.92px;
+			display: flex;
+			justify-content: space-between;
+			// background-color: blue;
+			margin-top: 30px;
+			i {
+				color: white;
+				font-size: 31px;
+				// padding-right: 30.5px;
+			}
+		}
+		.copyright {
+			width: 206px;
+			height: 14px;
+			font-size: 12px;
+			color: white;
+			white-space: nowrap;
+			opacity: .5;
+			margin-top: 46px;
+			font-family: GillSans;
+		}
+	}
+}
+
+::placeholder {
+	color: white;
+	opacity: .5;
+	padding-left: 23px;
+}

@@ -1,0 +1,173 @@
+.galleryWrapper {
+	height: 100%;
+	max-width: 981px;
+	// background-color: red;
+	margin: 0 auto;
+	padding-top: 85.5px;
+	padding-bottom: 95px;
+	padding-right: 10px;
+	padding-left: 10px;
+	.galleryHeader {
+		max-width: 214px;
+		min-height: 39.5px;
+		font-size: 25px;
+		font-family: GillSans;
+		border-bottom: 2px solid black;
+		margin-bottom: 29.5px;
+	}
+	.galleryContainer {
+		max-width: 981px;
+		min-height: 513px;
+		// background-color: aqua;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.galleryTop {
+			max-width: 981px;
+			min-height: 187px;
+			// background-color: beige;
+			display: flex;
+			justify-content: space-between;
+
+			.yellowBox {
+				width: 489px;
+				height: 187px;
+				background-image: linear-gradient(rgba(255, 209, 64, .75), rgba(255, 209, 64, .75)),
+					url(../images/1.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.redBox {
+				width: 187px;
+				height: 187px;
+				background-image: linear-gradient(rgba(238, 67, 103, .75), rgba(238, 67, 103, .75)),
+					url(../images/2.jpeg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.darkGreenBox {
+				width: 265px;
+				height: 187px;
+				background-image: linear-gradient(rgba(8, 173, 105, .75), rgba(8, 173, 105, .75)), url(../images/3.jpg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+		}
+		.galleryBottom {
+			max-width: 981px;
+			min-height: 306px;
+			// background-color: gray;
+			display: flex;
+			justify-content: space-between;
+
+			.purpleBox {
+				height: 306px;
+				width: 603px;
+				background-image: linear-gradient(rgba(84, 13, 110, .75), rgba(84, 13, 110, .75)), url(../images/4.jpg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.aquaBox {
+				height: 306px;
+				width: 355px;
+				background-image: linear-gradient(rgba(59, 206, 171, .75), rgba(59, 206, 171, .75)),
+					url(../images/5.png);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.galleryWrapper {
+		.galleryHeader {
+			margin: 0 auto;
+			margin-bottom: 29.5px;
+			text-align: center;
+		}
+		.galleryContainer {
+			max-width: 513px;
+			min-height: 981px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			// background-color: red;
+			margin: 0 auto;
+			.galleryTop {
+				min-height: 981px;
+				max-width: 187px;
+				// background-color: beige;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				.yellowBox {
+					height: 489px;
+					width: 187px;
+					background-image: linear-gradient(rgba(255, 209, 64, .75), rgba(255, 209, 64, .75)),
+						url(../images/1.png);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+				.redBox {
+					height: 187px;
+					width: 187px;
+					background-image: linear-gradient(rgba(238, 67, 103, .75), rgba(238, 67, 103, .75)),
+						url(../images/2.jpeg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+				.darkGreenBox {
+					height: 265px;
+					width: 187px;
+					background-image: linear-gradient(rgba(8, 173, 105, .75), rgba(8, 173, 105, .75)),
+						url(../images/3.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+			}
+			.galleryBottom {
+				min-height: 981px;
+				max-width: 306px;
+				// background-color: gray;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				.purpleBox {
+					width: 306px;
+					height: 603px;
+					background-image: linear-gradient(rgba(84, 13, 110, .75), rgba(84, 13, 110, .75)),
+						url(../images/4.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+				.aquaBox {
+					width: 306px;
+					height: 355px;
+					background-image: linear-gradient(rgba(59, 206, 171, .75), rgba(59, 206, 171, .75)),
+						url(../images/5.png);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+	}
+}
